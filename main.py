@@ -9,9 +9,9 @@ import pandas as pd
 import psycopg2
 
 #DB_URI = db_uri_code
-#API_TOKEN = tg_api_bot
+API_TOKEN = '5772736443:AAHJtlkOM33PrJTLOu5LQl8on3EroOgTL-g'
 
-#CHAT_ID = tg_chat_id
+CHAT_ID = 1001835911561
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")

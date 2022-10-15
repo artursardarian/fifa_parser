@@ -6,9 +6,9 @@ import undetected_chromedriver as uc
 import gc
 import pandas as pd
 
-#API_TOKEN = tg_api_token
+API_TOKEN = '5772736443:AAHJtlkOM33PrJTLOu5LQl8on3EroOgTL-g'
 
-#CHAT_ID = tg_chat_id
+CHAT_ID = 1001835911561
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
